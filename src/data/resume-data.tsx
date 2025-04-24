@@ -16,7 +16,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Engineers are dedicated to creating reliable systems.",
   summary:
-    "As a full stack engineer who has the ability to learn new things quickly and can work together effectively with a team. Currently, I work mostly with Codeigniter, Laravel, and PostgreSQL. Still learning TypeScript and Next.js.",
+    "As a full stack engineer who has the ability to learn new things quickly and can work together effectively with a team. Currently, I work mostly with Codeigniter, Laravel, and PostgreSQL.",
   avatarUrl: "https://avatars.githubusercontent.com/u/46832539?v=4",
   personalWebsiteUrl: "https://murphi.my.id",
   contact: {
@@ -52,7 +52,7 @@ export const RESUME_DATA = {
     {
       company: "Badan Pusat Statistik - RI",
       link: "https://www.bps.go.id",
-      badges: [],
+      badges: ["On Site"],
       title: "Staff of the Directorate Dissemination Statistics",
       // logo: ConsultlyLogo,
       start: "2021",
@@ -67,9 +67,20 @@ export const RESUME_DATA = {
       title: "Data Engineer",
       // logo: JojoMobileLogo,
       start: "2024",
-      end: null,
+      end: "2025",
       description:
         "Maintaining the Big Data Project mainly in Google Cloud Services.",
+    },
+    {
+      company: "Kwaritech",
+      link: null,
+      badges: ["Remote"],
+      title: "Full Stack Developer",
+      // logo: JojoMobileLogo,
+      start: "2025",
+      end: null,
+      description:
+        "Senior developer for the development of a web application.",
     },
   ],
   skills: [
@@ -123,6 +134,16 @@ export const RESUME_DATA = {
       ],
       description:
         "Website for managing reimbursement requests.",
+      // logo: ParabolLogo,
+    },
+    {
+      title: "Smart HIS - Sari Asih Hospital",
+      techStack: [
+        "Codeigniter",
+        "MySQL",
+      ],
+      description:
+        "Website for managing hospital business process.",
       // logo: ParabolLogo,
     },
   ],
