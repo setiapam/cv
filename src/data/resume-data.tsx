@@ -73,7 +73,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Kwaritech",
-      link: null,
+      link: "",
       badges: ["Remote"],
       title: "Full Stack Developer",
       // logo: JojoMobileLogo,
